@@ -1,0 +1,97 @@
+
+nav {
+   display: flex; 
+   justify-content: center;
+   font-family: 'Poppins',sans-serif;
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+.navChild {
+    display: flex; 
+    width: 100%;
+    max-width: 1300px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 80px;
+}
+.banner h1 {
+    font-family: 'Titan One',cursive;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    background-color: #103654;
+    color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.navChild ul  {
+    display: flex;
+    gap: 20px;
+}
+.navChild ul li {
+    list-style: none;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+}
+.navChild ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.navChild ul li .isLogin {
+    display: flex;
+    gap: 15px;
+}
+.navChild  .isLogin a {
+    font-family: 'Poppins',sans-serif;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navChild .isLogin .login-btn {
+    border: 1px solid #5FA8D5;
+    color: #5FA8D5;
+    background-color: #103654;
+}
+
+.navChild .isLogin .login-btn:hover {
+    background-color: #fff;
+}
+.navChild .isLogin .login-btn:active {
+    background-color: #103654;
+    color: #fff;
+}
+.navChild .isLogin .login-btn span {
+    transform: rotate(180deg);
+    font-size: 20px;
+    margin-left: 5px;
+}
+.navChild .isLogin .signUp-btn {
+    background-color: #5FA8D5;
+    color: #fff;
+}
+.navChild .isLogin .signUp-btn span {
+    font-size: 20px;
+    margin-left: 5px;
+}
+.navChild .isLogin .signUp-btn:hover {
+    background-color: #fff;
+    color: #5FA8D5;
+}
+.navChild .isLogin .signUp-btn:active {
+    background-color: #5FA8D5;
+    color: #fff;
+}
+@media only screen and (max-width: 830px) {
+    nav {
+        background-color: #103654;
+        border-bottom: 1px solid #fff;
+    }
+}

@@ -1,0 +1,51 @@
+
+.user-page {
+    border: 1px solid red;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 20px;
+    height: calc((100vh - 80px) - 30px);
+    border-radius: 10px;
+    padding: 10px;
+}       
+.user-info {
+    display: flex;
+    gap: 20px;
+}
+/* .user-profile */
+.user-info .user-profile {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    border:1px solid  black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.user-profile .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.user-profile .edit-profile-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+.user-info .div2 {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}
+.user-info .div3 {
+    width: calc(100% - 900px);
+    height: 300px;
+    border: 1px solid black;
+}
+/* .user-profile */
